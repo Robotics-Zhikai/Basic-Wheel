@@ -432,6 +432,24 @@ void AddBufferLinesArrows(Segment seg, float LineWidth)
 	}
 }
 
+void AddBufferLinesArrows(vector<Point> seg, float LineWidth)
+{
+	vector<Point> Points;
+	Points.push_back(seg[0]);
+	Points.push_back(seg[1]);
+
+	for (int i = 0; i < Points.size(); i++)
+		GLplotLineArrowData.push_back(Points[i]);
+
+	numplotLineType = 0;
+	numplotLineType = numplotLineType + 1;
+	for (int i = 0; i < Points.size(); i++)
+	{
+		GLplotLineArrowWidth.push_back(LineWidth);
+		GLplotLineArrowType.push_back(numplotLineType);
+	}
+}
+
 void AddBufferHollowSquare(vector<Point> Points, float SquareSize)
 {
 	for (int i = 0; i < Points.size(); i++)

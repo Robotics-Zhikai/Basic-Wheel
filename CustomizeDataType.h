@@ -130,6 +130,12 @@ public:
 		this->R = tmp.R;
 	}
 
+	//Segment operator = (vector<Point> tmp)
+	//{
+	//	this->L = tmp[0];
+	//	this->R = tmp[1];
+	//}
+
 	int operator == (Segment tmp)//È«µÈ
 	{
 		if (this->L == tmp.L && this->R == tmp.R)

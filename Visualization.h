@@ -37,7 +37,10 @@ void CloseGLplot();
 
 void AddBufferPoints(vector<Point> Points, float sizepoint);
 void AddBufferSequenceLine(vector<Point> Points, float LineWidth);
+
 void AddBufferLinesArrows(Segment seg, float LineWidth);
+void AddBufferLinesArrows(vector<Point> seg, float LineWidth);
+
 void AddBufferHollowSquare(vector<Point> Points, float SquareSize);
 void AddBufferSegment(Segment seg, float LineWidth);
 
