@@ -45,3 +45,8 @@ void AddBufferHollowSquare(vector<Point> Points, float SquareSize);
 void AddBufferSegment(Segment seg, float LineWidth);
 
 #endif
+
+//测试同步更新1023
+//测试同步更新1023
+//测试同步更新1023
+//测试同步更新1023

@@ -15,3 +15,8 @@ int DistributeUniqueID()//分配一独有的ID
 		return SegmentsID.size();
 	}
 }
+
+//测试同步更新1023
+//测试同步更新1023
+//测试同步更新1023
+//测试同步更新1023

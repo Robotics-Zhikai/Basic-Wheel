@@ -35,3 +35,8 @@ vector <Point> GetCHGrahamScan(vector<Point> Points);
 
 vector <Point> GetCHDivideMerge(vector <Point> Points);
 #endif
+
+//测试同步更新1023
+//测试同步更新1023
+//测试同步更新1023
+//测试同步更新1023
