@@ -9,3 +9,5 @@
 解决方案是加入了UpdateBasicFiles.py这样的脚本文件，通过比较所有分布式仓库的各个同名文件的修改日期，取最近的修改日期作为替换，批量的对BasicWheel中的代码进行更新。只需右击UpdateBasicFiles，以python运行，即可进行批量更新
 
 更新Heap，template实现 改进Heap的实现，运用了模板，实现算法与数据的分离。
+
+不太清楚是什么原因，Heap.h方法的实现挪到Heap.cpp中时，会出现error link2019 找不到标识符的情形，可能与编译器有关。
